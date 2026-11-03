@@ -102,6 +102,10 @@ dependencies {
     implementation project(':catvod')
     implementation project(':chaquo')
     implementation project(':quickjs')
+    implementation project(':hook')
+    implementation project(':forcetech')
+    implementation project(':tvbus')
+    implementation project(':dlna')
     implementation 'androidx.appcompat:appcompat:1.7.1'
     implementation 'androidx.media:media:1.7.0'
     implementation 'androidx.room:room-runtime:2.7.2'

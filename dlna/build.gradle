@@ -1,0 +1,39 @@
+plugins {
+    id 'com.android.library'
+}
+
+android {
+    namespace 'com.android.cast.dlna'
+    compileSdk 36
+
+    defaultConfig {
+        minSdk 21
+        //noinspection ExpiredTargetSdkVersion
+        targetSdk 28
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_11
+        targetCompatibility JavaVersion.VERSION_11
+    }
+}
+
+dependencies {
+    // Cling UPnP/DLNA stack
+    //noinspection GradleDependency
+    api 'org.fourthline.cling:cling-core:2.1.1'
+    //noinspection GradleDependency
+    api 'org.fourthline.cling:cling-support:2.1.1'
+    // Jetty stream server required by cling on Android
+    //noinspection GradleDependency
+    api 'org.eclipse.jetty:jetty-server:8.1.21.v20160908'
+    //noinspection GradleDependency
+    api 'org.eclipse.jetty:jetty-servlet:8.1.21.v20160908'
+    //noinspection GradleDependency
+    api 'org.eclipse.jetty:jetty-client:8.1.21.v20160908'
+    // Logger
+    api 'com.orhanobut:logger:2.2.0'
+    api 'androidx.appcompat:appcompat:1.7.1'
+    // kotlin.Unit referenced by CastDialog generics (plain jar, no Kotlin plugin needed)
+    api 'org.jetbrains.kotlin:kotlin-stdlib:1.9.24'
+}
