@@ -1,6 +1,7 @@
 lxml
 ujson
-pyquery
+cssselect==1.2.0
+pyquery==2.0.0
 requests
 jsonpath
 cachetools
