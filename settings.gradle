@@ -19,6 +19,7 @@ dependencyResolutionManagement {
     }
 }
 include ':app'
+include ':media3-ui'
 include ':catvod'
 include ':chaquo'
 include ':quickjs'
