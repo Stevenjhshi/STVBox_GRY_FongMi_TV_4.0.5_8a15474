@@ -107,6 +107,9 @@ dependencies {
     implementation project(':tvbus')
     implementation project(':dlna')
     implementation project(':danmaku')
+    implementation project(':thunder')
+    implementation project(':jianpian')
+    implementation 'com.github.anilbeesetti.nextlib:nextlib-media3ext:0.8.4'
     implementation 'androidx.appcompat:appcompat:1.7.1'
     implementation 'androidx.media:media:1.7.0'
     implementation 'androidx.room:room-runtime:2.7.2'
