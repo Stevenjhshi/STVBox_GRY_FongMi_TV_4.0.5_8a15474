@@ -26,4 +26,5 @@ include ':hook'
 include ':forcetech'
 include ':tvbus'
 include ':dlna'
+include ':danmaku'
 rootProject.name = "TV"
