@@ -1,4 +1,4 @@
-﻿package com.stvbox.gry.player;
+package com.stvbox.gry.player;
 
 import com.stvbox.gry.Constant;
 import com.stvbox.gry.bean.Channel;

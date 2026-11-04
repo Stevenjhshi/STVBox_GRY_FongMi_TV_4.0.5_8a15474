@@ -1,4 +1,4 @@
-﻿package com.stvbox.gry.gson;
+package com.stvbox.gry.gson;
 
 import com.stvbox.gry.bean.Filter;
 import com.google.gson.JsonDeserializationContext;

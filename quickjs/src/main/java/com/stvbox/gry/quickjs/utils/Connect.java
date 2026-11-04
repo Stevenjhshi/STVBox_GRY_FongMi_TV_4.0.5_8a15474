@@ -1,4 +1,4 @@
-﻿package com.stvbox.gry.quickjs.utils;
+package com.stvbox.gry.quickjs.utils;
 
 import com.stvbox.gry.quickjs.bean.Req;
 import com.github.catvod.net.OkHttp;

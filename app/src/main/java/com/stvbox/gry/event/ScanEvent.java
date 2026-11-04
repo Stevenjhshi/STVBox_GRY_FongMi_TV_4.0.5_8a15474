@@ -1,4 +1,4 @@
-﻿package com.stvbox.gry.event;
+package com.stvbox.gry.event;
 
 import org.greenrobot.eventbus.EventBus;
 

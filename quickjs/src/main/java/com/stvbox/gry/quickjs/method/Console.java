@@ -1,4 +1,4 @@
-﻿package com.stvbox.gry.quickjs.method;
+package com.stvbox.gry.quickjs.method;
 
 import com.orhanobut.logger.Logger;
 import com.whl.quickjs.wrapper.QuickJSContext;

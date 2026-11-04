@@ -1,4 +1,4 @@
-﻿package com.stvbox.gry.hook;
+package com.stvbox.gry.hook;
 
 import android.annotation.TargetApi;
 import android.content.ComponentName;

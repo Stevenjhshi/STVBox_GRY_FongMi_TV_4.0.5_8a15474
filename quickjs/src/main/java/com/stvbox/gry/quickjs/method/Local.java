@@ -1,4 +1,4 @@
-﻿package com.stvbox.gry.quickjs.method;
+package com.stvbox.gry.quickjs.method;
 
 import android.text.TextUtils;
 

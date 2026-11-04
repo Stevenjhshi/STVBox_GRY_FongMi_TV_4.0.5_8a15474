@@ -1,4 +1,4 @@
-﻿package com.android.cast.dlna.dmr.service;
+package com.android.cast.dlna.dmr.service;
 
 import android.content.Context;
 import android.content.Intent;

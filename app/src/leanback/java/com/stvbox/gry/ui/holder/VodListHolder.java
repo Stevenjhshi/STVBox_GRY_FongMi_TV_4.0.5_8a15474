@@ -1,4 +1,4 @@
-﻿package com.stvbox.gry.ui.holder;
+package com.stvbox.gry.ui.holder;
 
 import android.widget.ImageView;
 

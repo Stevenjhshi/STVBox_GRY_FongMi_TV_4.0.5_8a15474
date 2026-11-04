@@ -1,4 +1,4 @@
-﻿package com.stvbox.gry.model;
+package com.stvbox.gry.model;
 
 import androidx.lifecycle.MutableLiveData;
 import androidx.lifecycle.ViewModel;

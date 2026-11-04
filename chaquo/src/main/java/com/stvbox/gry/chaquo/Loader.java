@@ -1,4 +1,4 @@
-﻿package com.stvbox.gry.chaquo;
+package com.stvbox.gry.chaquo;
 
 import android.content.Context;
 

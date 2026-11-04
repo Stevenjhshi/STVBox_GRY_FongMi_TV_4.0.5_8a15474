@@ -1,4 +1,4 @@
-﻿package com.stvbox.gry.quickjs.method;
+package com.stvbox.gry.quickjs.method;
 
 import androidx.annotation.Keep;
 import androidx.annotation.NonNull;

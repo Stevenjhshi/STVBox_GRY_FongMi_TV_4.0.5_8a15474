@@ -1,4 +1,4 @@
-﻿package com.stvbox.gry.gson;
+package com.stvbox.gry.gson;
 
 import com.stvbox.gry.bean.Url;
 import com.google.gson.JsonArray;

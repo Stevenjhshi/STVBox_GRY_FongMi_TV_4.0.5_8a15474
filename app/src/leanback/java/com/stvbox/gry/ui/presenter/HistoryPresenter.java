@@ -1,4 +1,4 @@
-﻿package com.stvbox.gry.ui.presenter;
+package com.stvbox.gry.ui.presenter;
 
 import android.view.LayoutInflater;
 import android.view.View;

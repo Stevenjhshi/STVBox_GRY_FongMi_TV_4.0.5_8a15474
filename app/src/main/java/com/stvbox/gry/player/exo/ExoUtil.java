@@ -1,4 +1,4 @@
-﻿package com.stvbox.gry.player.exo;
+package com.stvbox.gry.player.exo;
 
 import android.content.Context;
 import android.graphics.Color;

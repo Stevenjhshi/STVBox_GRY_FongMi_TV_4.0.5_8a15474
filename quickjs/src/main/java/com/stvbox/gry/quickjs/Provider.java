@@ -1,4 +1,4 @@
-﻿package com.stvbox.gry.quickjs;
+package com.stvbox.gry.quickjs;
 
 import android.content.ContentProvider;
 import android.content.ContentValues;

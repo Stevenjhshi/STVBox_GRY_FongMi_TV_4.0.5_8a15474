@@ -1,4 +1,4 @@
-﻿package com.stvbox.gry.ui.custom;
+package com.stvbox.gry.ui.custom;
 
 import android.os.Bundle;
 import android.speech.RecognitionListener;

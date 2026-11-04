@@ -1,4 +1,4 @@
-﻿package com.stvbox.gry.quickjs.utils;
+package com.stvbox.gry.quickjs.utils;
 
 import android.net.Uri;
 

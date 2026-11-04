@@ -1,4 +1,4 @@
-﻿package com.stvbox.gry.player.extractor;
+package com.stvbox.gry.player.extractor;
 
 import android.content.ComponentName;
 import android.content.Context;

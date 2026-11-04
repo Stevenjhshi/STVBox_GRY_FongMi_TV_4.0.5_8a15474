@@ -1,4 +1,4 @@
-﻿package com.stvbox.gry.db;
+package com.stvbox.gry.db;
 
 import android.content.Context;
 

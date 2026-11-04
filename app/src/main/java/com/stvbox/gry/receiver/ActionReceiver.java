@@ -1,4 +1,4 @@
-﻿package com.stvbox.gry.receiver;
+package com.stvbox.gry.receiver;
 
 import android.app.PendingIntent;
 import android.content.BroadcastReceiver;

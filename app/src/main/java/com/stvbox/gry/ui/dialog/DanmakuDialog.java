@@ -1,4 +1,4 @@
-﻿
+
 package com.stvbox.gry.ui.dialog;
 
 import android.app.Activity;

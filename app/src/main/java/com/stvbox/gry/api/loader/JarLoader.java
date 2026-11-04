@@ -1,4 +1,4 @@
-﻿package com.stvbox.gry.api.loader;
+package com.stvbox.gry.api.loader;
 
 import android.content.Context;
 

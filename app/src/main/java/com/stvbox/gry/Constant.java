@@ -1,4 +1,4 @@
-﻿package com.stvbox.gry;
+package com.stvbox.gry;
 
 import java.util.concurrent.TimeUnit;
 

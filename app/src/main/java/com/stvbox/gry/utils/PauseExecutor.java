@@ -1,4 +1,4 @@
-﻿package com.stvbox.gry.utils;
+package com.stvbox.gry.utils;
 
 import java.util.concurrent.LinkedBlockingQueue;
 import java.util.concurrent.ThreadPoolExecutor;

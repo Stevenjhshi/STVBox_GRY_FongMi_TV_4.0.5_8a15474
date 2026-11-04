@@ -1,4 +1,4 @@
-﻿package com.stvbox.gry.utils;
+package com.stvbox.gry.utils;
 
 import androidx.annotation.NonNull;
 import androidx.biometric.BiometricManager;

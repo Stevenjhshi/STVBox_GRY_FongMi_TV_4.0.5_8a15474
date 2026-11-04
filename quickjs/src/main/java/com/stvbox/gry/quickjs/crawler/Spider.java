@@ -1,4 +1,4 @@
-﻿package com.stvbox.gry.quickjs.crawler;
+package com.stvbox.gry.quickjs.crawler;
 
 import android.content.Context;
 

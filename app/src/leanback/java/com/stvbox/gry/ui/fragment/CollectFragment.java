@@ -1,4 +1,4 @@
-﻿package com.stvbox.gry.ui.fragment;
+package com.stvbox.gry.ui.fragment;
 
 import android.app.Activity;
 import android.os.Bundle;

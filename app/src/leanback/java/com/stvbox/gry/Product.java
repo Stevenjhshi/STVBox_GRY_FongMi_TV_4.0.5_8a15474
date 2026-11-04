@@ -1,4 +1,4 @@
-﻿package com.stvbox.gry;
+package com.stvbox.gry;
 
 import com.stvbox.gry.bean.Style;
 import com.stvbox.gry.utils.ResUtil;

@@ -1,4 +1,4 @@
-﻿package com.stvbox.gry.ui.base;
+package com.stvbox.gry.ui.base;
 
 public class ViewType {
 

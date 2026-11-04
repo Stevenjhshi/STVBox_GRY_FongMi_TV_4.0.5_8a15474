@@ -1,4 +1,4 @@
-﻿package com.stvbox.gry.utils;
+package com.stvbox.gry.utils;
 
 import android.annotation.TargetApi;
 import android.app.Activity;

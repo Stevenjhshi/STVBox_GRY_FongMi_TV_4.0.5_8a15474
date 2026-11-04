@@ -1,4 +1,4 @@
-﻿package com.stvbox.gry.impl;
+package com.stvbox.gry.impl;
 
 import android.support.v4.media.session.MediaSessionCompat;
 

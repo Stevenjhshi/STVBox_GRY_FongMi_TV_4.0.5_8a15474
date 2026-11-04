@@ -1,4 +1,4 @@
-﻿package com.stvbox.gry.api.loader;
+package com.stvbox.gry.api.loader;
 
 import com.stvbox.gry.App;
 import com.github.catvod.crawler.Spider;

@@ -1,4 +1,4 @@
-﻿package com.stvbox.gry.server.impl;
+package com.stvbox.gry.server.impl;
 
 import java.util.Map;
 

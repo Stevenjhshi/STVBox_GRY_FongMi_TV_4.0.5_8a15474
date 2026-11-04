@@ -1,4 +1,4 @@
-﻿package com.stvbox.gry.utils;
+package com.stvbox.gry.utils;
 
 import com.stvbox.gry.App;
 import com.stvbox.gry.bean.Device;

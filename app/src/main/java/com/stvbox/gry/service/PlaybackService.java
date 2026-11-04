@@ -1,4 +1,4 @@
-﻿package com.stvbox.gry.service;
+package com.stvbox.gry.service;
 
 import android.app.Notification;
 import android.app.Service;

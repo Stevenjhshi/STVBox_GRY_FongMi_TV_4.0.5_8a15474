@@ -1,4 +1,4 @@
-﻿package com.stvbox.gry.exception;
+package com.stvbox.gry.exception;
 
 import androidx.annotation.Nullable;
 

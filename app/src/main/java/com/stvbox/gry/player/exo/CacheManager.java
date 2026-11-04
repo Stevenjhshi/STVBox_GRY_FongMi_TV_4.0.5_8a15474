@@ -1,4 +1,4 @@
-﻿package com.stvbox.gry.player.exo;
+package com.stvbox.gry.player.exo;
 
 import androidx.media3.database.StandaloneDatabaseProvider;
 import androidx.media3.datasource.cache.Cache;

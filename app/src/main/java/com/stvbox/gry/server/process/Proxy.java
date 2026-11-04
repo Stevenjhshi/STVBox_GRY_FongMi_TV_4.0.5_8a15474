@@ -1,4 +1,4 @@
-﻿package com.stvbox.gry.server.process;
+package com.stvbox.gry.server.process;
 
 import com.stvbox.gry.api.loader.BaseLoader;
 import com.stvbox.gry.server.Nano;

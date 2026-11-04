@@ -1,4 +1,4 @@
-﻿package com.stvbox.gry.api;
+package com.stvbox.gry.api;
 
 import androidx.media3.common.MimeTypes;
 

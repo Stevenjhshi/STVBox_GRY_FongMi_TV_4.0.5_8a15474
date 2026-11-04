@@ -1,4 +1,4 @@
-﻿package com.stvbox.gry.ui.custom;
+package com.stvbox.gry.ui.custom;
 
 import android.content.Context;
 import android.util.AttributeSet;

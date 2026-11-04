@@ -1,4 +1,4 @@
-﻿package com.stvbox.gry.quickjs.utils;
+package com.stvbox.gry.quickjs.utils;
 
 import com.whl.quickjs.wrapper.JSArray;
 import com.whl.quickjs.wrapper.JSObject;

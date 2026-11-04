@@ -1,4 +1,4 @@
-﻿package com.stvbox.gry.ui.fragment;
+package com.stvbox.gry.ui.fragment;
 
 import android.annotation.SuppressLint;
 import android.os.Bundle;

@@ -1,4 +1,4 @@
-﻿package com.stvbox.gry.db;
+package com.stvbox.gry.db;
 
 import androidx.annotation.NonNull;
 import androidx.room.migration.Migration;

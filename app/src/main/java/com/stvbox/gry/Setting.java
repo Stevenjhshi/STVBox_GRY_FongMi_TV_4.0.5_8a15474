@@ -1,4 +1,4 @@
-﻿package com.stvbox.gry;
+package com.stvbox.gry;
 
 
 import android.content.Intent;

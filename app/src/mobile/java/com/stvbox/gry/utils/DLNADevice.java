@@ -1,4 +1,4 @@
-﻿package com.stvbox.gry.utils;
+package com.stvbox.gry.utils;
 
 import com.android.cast.dlna.dmc.DLNACastManager;
 import com.stvbox.gry.bean.Device;

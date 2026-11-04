@@ -1,4 +1,4 @@
-﻿package com.stvbox.gry.ui.base;
+package com.stvbox.gry.ui.base;
 
 import android.app.Activity;
 import android.graphics.Color;

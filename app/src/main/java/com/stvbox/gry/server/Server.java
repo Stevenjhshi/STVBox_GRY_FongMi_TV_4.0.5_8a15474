@@ -1,4 +1,4 @@
-﻿package com.stvbox.gry.server;
+package com.stvbox.gry.server;
 
 import com.stvbox.gry.player.Players;
 import com.github.catvod.Proxy;

@@ -1,4 +1,4 @@
-﻿package com.stvbox.gry.player.danmaku;
+package com.stvbox.gry.player.danmaku;
 
 import androidx.media3.common.Player;
 

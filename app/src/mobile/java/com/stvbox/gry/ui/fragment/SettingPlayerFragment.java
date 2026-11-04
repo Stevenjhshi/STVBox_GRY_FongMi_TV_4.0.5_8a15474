@@ -1,4 +1,4 @@
-﻿package com.stvbox.gry.ui.fragment;
+package com.stvbox.gry.ui.fragment;
 
 import android.content.Intent;
 import android.provider.Settings;

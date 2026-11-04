@@ -1,4 +1,4 @@
-﻿package com.stvbox.gry.player;
+package com.stvbox.gry.player;
 
 import static androidx.media3.common.Player.COMMAND_SET_SPEED_AND_PITCH;
 import static androidx.media3.exoplayer.DefaultRenderersFactory.EXTENSION_RENDERER_MODE_ON;

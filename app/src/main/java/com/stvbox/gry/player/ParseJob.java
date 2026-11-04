@@ -1,4 +1,4 @@
-﻿package com.stvbox.gry.player;
+package com.stvbox.gry.player;
 
 import android.text.TextUtils;
 

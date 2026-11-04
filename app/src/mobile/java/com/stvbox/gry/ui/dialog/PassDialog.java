@@ -1,4 +1,4 @@
-﻿package com.stvbox.gry.ui.dialog;
+package com.stvbox.gry.ui.dialog;
 
 import android.view.KeyEvent;
 import android.view.LayoutInflater;

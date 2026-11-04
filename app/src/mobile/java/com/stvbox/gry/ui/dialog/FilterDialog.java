@@ -1,4 +1,4 @@
-﻿package com.stvbox.gry.ui.dialog;
+package com.stvbox.gry.ui.dialog;
 
 import android.view.LayoutInflater;
 import android.view.ViewGroup;

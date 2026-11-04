@@ -1,4 +1,4 @@
-﻿# TV
+# TV
 -keep class com.stvbox.gry.bean.** { *; }
 
 # Gson

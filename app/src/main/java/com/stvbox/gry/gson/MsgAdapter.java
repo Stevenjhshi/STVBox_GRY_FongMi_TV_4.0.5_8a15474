@@ -1,4 +1,4 @@
-﻿package com.stvbox.gry.gson;
+package com.stvbox.gry.gson;
 
 import com.google.gson.JsonDeserializationContext;
 import com.google.gson.JsonDeserializer;

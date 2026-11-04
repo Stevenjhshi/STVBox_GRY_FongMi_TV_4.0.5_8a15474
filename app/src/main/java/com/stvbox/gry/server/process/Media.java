@@ -1,4 +1,4 @@
-﻿package com.stvbox.gry.server.process;
+package com.stvbox.gry.server.process;
 
 import android.support.v4.media.MediaMetadataCompat;
 import android.support.v4.media.session.PlaybackStateCompat;

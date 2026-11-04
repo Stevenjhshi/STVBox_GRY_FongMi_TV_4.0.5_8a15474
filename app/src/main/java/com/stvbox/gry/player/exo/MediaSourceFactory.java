@@ -1,4 +1,4 @@
-﻿package com.stvbox.gry.player.exo;
+package com.stvbox.gry.player.exo;
 
 import static androidx.media3.extractor.ts.DefaultTsPayloadReaderFactory.FLAG_ENABLE_HDMV_DTS_AUDIO_STREAMS;
 

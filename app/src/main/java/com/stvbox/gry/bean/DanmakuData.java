@@ -1,4 +1,4 @@
-﻿package com.stvbox.gry.bean;
+package com.stvbox.gry.bean;
 
 import android.graphics.Color;
 import android.text.TextUtils;

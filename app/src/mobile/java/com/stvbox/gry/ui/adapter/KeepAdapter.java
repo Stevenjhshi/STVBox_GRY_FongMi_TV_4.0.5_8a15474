@@ -1,4 +1,4 @@
-﻿package com.stvbox.gry.ui.adapter;
+package com.stvbox.gry.ui.adapter;
 
 import android.view.LayoutInflater;
 import android.view.View;

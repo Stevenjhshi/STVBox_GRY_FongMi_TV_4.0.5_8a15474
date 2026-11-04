@@ -1,4 +1,4 @@
-﻿package com.stvbox.gry.impl;
+package com.stvbox.gry.impl;
 
 public interface ProxyCallback {
 

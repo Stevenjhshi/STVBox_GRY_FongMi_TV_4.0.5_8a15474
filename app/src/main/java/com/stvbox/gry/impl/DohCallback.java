@@ -1,4 +1,4 @@
-﻿package com.stvbox.gry.impl;
+package com.stvbox.gry.impl;
 
 import com.github.catvod.bean.Doh;
 

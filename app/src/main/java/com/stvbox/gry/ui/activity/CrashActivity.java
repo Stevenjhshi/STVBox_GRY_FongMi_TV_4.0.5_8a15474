@@ -1,4 +1,4 @@
-﻿package com.stvbox.gry.ui.activity;
+package com.stvbox.gry.ui.activity;
 
 import androidx.appcompat.app.AlertDialog;
 import androidx.viewbinding.ViewBinding;

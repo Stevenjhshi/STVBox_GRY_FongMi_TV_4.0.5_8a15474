@@ -1,4 +1,4 @@
-﻿package com.stvbox.gry.api.config;
+package com.stvbox.gry.api.config;
 
 import android.text.TextUtils;
 
