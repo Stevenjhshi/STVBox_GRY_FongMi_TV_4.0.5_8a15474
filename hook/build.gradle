@@ -1,9 +1,9 @@
-plugins {
+﻿plugins {
     id 'com.android.library'
 }
 
 android {
-    namespace 'com.fongmi.hook'
+    namespace 'com.stvbox.gry.hook'
 
     compileSdk 36
 

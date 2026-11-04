@@ -1,5 +1,5 @@
-# TV
--keep class com.fongmi.android.tv.bean.** { *; }
+﻿# TV
+-keep class com.stvbox.gry.bean.** { *; }
 
 # Gson
 -keep class com.google.gson.** { *; }
@@ -71,7 +71,7 @@
 -dontwarn jdk.dynalink.**
 
 # QuickJS
--keep class com.fongmi.quickjs.method.** { *; }
+-keep class com.stvbox.gry.quickjs.method.** { *; }
 
 # Sardine
 -keep class com.thegrizzlylabs.sardineandroid.** { *; }

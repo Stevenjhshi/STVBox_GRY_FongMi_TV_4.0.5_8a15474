@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     tools:ignore="ScopedStorage">
@@ -60,8 +60,8 @@
         </provider>
 
         <provider
-            android:name="com.fongmi.quickjs.Provider"
-            android:authorities="com.fongmi.quickjs.provider"
+            android:name="com.stvbox.gry.quickjs.Provider"
+            android:authorities="com.stvbox.gry.quickjs.provider"
             android:exported="false" />
 
         <activity

@@ -1,4 +1,4 @@
-package com.android.cast.dlna.dmr.service;
+﻿package com.android.cast.dlna.dmr.service;
 
 import android.content.Context;
 import android.content.Intent;
@@ -16,7 +16,7 @@ public final class RendererInterfaceKt {
 
     public static final String keyExtraCastAction = "com.android.cast.dlna.dmr.service.CastAction";
 
-    private static final String CAST_ACTIVITY = "com.fongmi.android.tv.ui.activity.CastActivity";
+    private static final String CAST_ACTIVITY = "com.stvbox.gry.ui.activity.CastActivity";
     private static final long REDELIVER_DELAY_MS = 1500;
 
     private RendererInterfaceKt() {

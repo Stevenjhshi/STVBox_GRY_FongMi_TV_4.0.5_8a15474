@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
@@ -94,7 +94,7 @@
 
     </com.google.android.material.appbar.AppBarLayout>
 
-    <com.fongmi.android.tv.ui.custom.CustomViewPager
+    <com.stvbox.gry.ui.custom.CustomViewPager
         android:id="@+id/pager"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -123,7 +123,7 @@
         app:backgroundTint="@color/blue_500"
         app:layout_anchor="@id/pager"
         app:layout_anchorGravity="end|bottom"
-        app:layout_behavior="com.fongmi.android.tv.ui.custom.CustomFabBehavior"
+        app:layout_behavior="com.stvbox.gry.ui.custom.CustomFabBehavior"
         app:srcCompat="@drawable/ic_fab_filter"
         app:tint="@color/white"
         tools:visibility="visible" />
@@ -136,7 +136,7 @@
         app:backgroundTint="@color/blue_500"
         app:layout_anchor="@id/pager"
         app:layout_anchorGravity="end|bottom"
-        app:layout_behavior="com.fongmi.android.tv.ui.custom.CustomFabBehavior"
+        app:layout_behavior="com.stvbox.gry.ui.custom.CustomFabBehavior"
         app:srcCompat="@drawable/ic_fab_link"
         app:tint="@color/white"
         tools:visibility="visible" />
@@ -151,7 +151,7 @@
         app:backgroundTint="@color/blue_500"
         app:layout_anchor="@id/pager"
         app:layout_anchorGravity="end|bottom"
-        app:layout_behavior="com.fongmi.android.tv.ui.custom.CustomFabBehavior"
+        app:layout_behavior="com.stvbox.gry.ui.custom.CustomFabBehavior"
         app:srcCompat="@drawable/ic_fab_top"
         app:tint="@color/white"
         tools:visibility="visible" />

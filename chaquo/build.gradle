@@ -1,10 +1,10 @@
-plugins {
+﻿plugins {
     id 'com.android.library'
     id 'com.chaquo.python'
 }
 
 android {
-    namespace 'com.fongmi.chaquo'
+    namespace 'com.stvbox.gry.chaquo'
 
     compileSdk 36
     flavorDimensions = ["abi"]

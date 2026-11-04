@@ -1,9 +1,9 @@
-plugins {
+﻿plugins {
     id 'com.android.library'
 }
 
 android {
-    namespace 'com.fongmi.android.tv.quickjs'
+    namespace 'com.stvbox.gry.quickjs'
 
     compileSdk 36
 

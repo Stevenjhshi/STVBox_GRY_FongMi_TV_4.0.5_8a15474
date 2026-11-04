@@ -12,4 +12,6 @@ project.ext {
     gsonVersion = '2.13.1'
     media3Version = '1.6.1'
     okhttpVersion = '5.1.0'
+    buildTime = (System.getenv('BUILD_TIME') ?: new Date().format('yyyyMMdd_HHmm', TimeZone.getTimeZone('Asia/Shanghai')))
+    buildCode = (System.getenv('BUILD_CODE') ? Integer.parseInt(System.getenv('BUILD_CODE')) : ((System.currentTimeMillis() / 1000L) as int))
 }

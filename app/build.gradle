@@ -3,21 +3,21 @@ plugins {
 }
 
 android {
-    namespace 'com.fongmi.android.tv'
+    namespace 'com.stvbox.gry'
 
     compileSdk 36
     flavorDimensions = ["mode", "abi"]
 
     defaultConfig {
-        applicationId "com.fongmi.android.tv"
+        applicationId "com.stvbox.gry"
         minSdk 21
         //noinspection ExpiredTargetSdkVersion
         targetSdk 28
-        versionCode 405
-        versionName "4.0.5"
+        versionCode rootProject.buildCode
+        versionName rootProject.buildTime
         javaCompileOptions {
             annotationProcessorOptions {
-                arguments = ["room.schemaLocation": "$projectDir/schemas".toString(), "eventBusIndex": "com.fongmi.android.tv.event.EventIndex"]
+                arguments = ["room.schemaLocation": "$projectDir/schemas".toString(), "eventBusIndex": "com.stvbox.gry.event.EventIndex"]
             }
         }
     }
@@ -76,7 +76,7 @@ android {
 
     android.applicationVariants.configureEach { variant ->
         variant.outputs.configureEach { output ->
-            outputFileName = "${variant.productFlavors[0].name}-${variant.productFlavors[1].name}.apk"
+            outputFileName = "STVBox_GRY_${rootProject.buildTime}_${variant.productFlavors[0].name}-${variant.productFlavors[1].name}.apk"
         }
     }
 

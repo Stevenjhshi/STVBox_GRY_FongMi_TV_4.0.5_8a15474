@@ -1,4 +1,4 @@
-name: Build APK
+name: STVBox_GRY Build APK
 
 on:
   push:
@@ -7,12 +7,19 @@ on:
 
 jobs:
   build:
-    name: Build FongMi TV 4.0.5 (armeabi-v7a)
+    name: STVBox_GRY ${{ env.BUILD_TIME }} (leanback/armeabi-v7a/release)
     runs-on: ubuntu-latest
 
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+
+      - name: Generate build timestamp
+        id: ts
+        run: |
+          echo "BUILD_TIME=$(TZ=Asia/Shanghai date +%Y%m%d_%H%M)" >> "$GITHUB_ENV"
+          echo "BUILD_CODE=$(TZ=Asia/Shanghai date +%s)" >> "$GITHUB_ENV"
+          echo "run_name=STVBox_GRY $(TZ=Asia/Shanghai date +%Y%m%d_%H%M)" >> "$GITHUB_OUTPUT"
 
       - name: Set up JDK 17
         uses: actions/setup-java@v4
@@ -23,7 +30,6 @@ jobs:
       - name: Install Android 36 platform and build-tools
         run: |
           echo "ANDROID_HOME=$ANDROID_HOME"
-          ls "$ANDROID_HOME/platforms" || true
           SDKM="$ANDROID_HOME/cmdline-tools/latest/bin/sdkmanager"
           yes | "$SDKM" --licenses > /dev/null 2>&1 || true
           "$SDKM" "platforms;android-36" "build-tools;35.0.0"
@@ -34,12 +40,15 @@ jobs:
       - name: Grant execute permission for gradlew
         run: chmod +x gradlew
 
-      - name: Build release APKs (armeabi-v7a, 32-bit)
-        run: ./gradlew --no-daemon --stacktrace :app:assembleLeanbackArmeabi_v7aRelease :app:assembleMobileArmeabi_v7aRelease
+      - name: Build STVBox_GRY release (leanback/armeabi-v7a, TV only, 32-bit)
+        env:
+          BUILD_TIME: ${{ env.BUILD_TIME }}
+          BUILD_CODE: ${{ env.BUILD_CODE }}
+        run: ./gradlew --no-daemon --stacktrace :app:assembleLeanbackArmeabi_v7aRelease
 
-      - name: Upload APKs
+      - name: Upload APK artifact
         uses: actions/upload-artifact@v4
         with:
-          name: fongmi-tv-4.0.5-armeabi-v7a
-          path: app/build/outputs/apk/**/*.apk
+          name: STVBox_GRY_${{ env.BUILD_TIME }}
+          path: app/build/outputs/apk/leanback/armeabi_v7a/release/*.apk
           if-no-files-found: error

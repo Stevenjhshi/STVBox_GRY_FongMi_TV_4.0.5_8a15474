@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
@@ -198,7 +198,7 @@
             android:paddingStart="16dp"
             android:paddingEnd="16dp">
 
-            <com.fongmi.android.tv.ui.custom.CustomSeekView
+            <com.stvbox.gry.ui.custom.CustomSeekView
                 android:id="@+id/seek"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
