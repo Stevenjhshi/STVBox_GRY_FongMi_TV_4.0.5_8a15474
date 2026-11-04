@@ -47,9 +47,21 @@ jobs:
           BUILD_CODE: ${{ env.BUILD_CODE }}
         run: ./gradlew --no-daemon --stacktrace :app:assembleLeanbackArmeabi_v7aRelease
 
+      - name: Collect APK
+        run: |
+          echo "=== output dirs ==="
+          find app/build/outputs -maxdepth 5 -type d -print 2>/dev/null || true
+          echo "=== apk files ==="
+          find app/build/outputs -name "*.apk" -type f -print 2>/dev/null || true
+          mkdir -p dist
+          APK=$(find app/build/outputs -name "*.apk" -type f | head -n 1)
+          if [ -z "$APK" ]; then echo "NO APK FOUND"; exit 1; fi
+          cp "$APK" "dist/STVBox_GRY_${BUILD_TIME}_leanback-armeabi_v7a.apk"
+          ls -la dist
+
       - name: Upload APK artifact
         uses: actions/upload-artifact@v4
         with:
           name: STVBox_GRY_${{ env.BUILD_TIME }}
-          path: app/build/outputs/apk/leanback/armeabi_v7a/release/*.apk
+          path: dist/*.apk
           if-no-files-found: error
