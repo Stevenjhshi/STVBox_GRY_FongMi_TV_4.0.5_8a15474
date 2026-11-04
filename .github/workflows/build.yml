@@ -1,4 +1,5 @@
 name: STVBox_GRY Build APK
+run-name: STVBox_GRY build #${{ github.run_number }}
 
 on:
   push:
@@ -7,7 +8,7 @@ on:
 
 jobs:
   build:
-    name: STVBox_GRY ${{ env.BUILD_TIME }} (leanback/armeabi-v7a/release)
+    name: STVBox_GRY (leanback/armeabi-v7a/release)
     runs-on: ubuntu-latest
 
     steps:
