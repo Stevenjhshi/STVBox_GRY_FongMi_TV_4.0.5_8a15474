@@ -92,6 +92,7 @@ public abstract class AppDatabase extends RoomDatabase {
 
     private static AppDatabase create(Context context) {
         return Room.databaseBuilder(context, AppDatabase.class, NAME)
+                .setJournalMode(RoomDatabase.JournalMode.TRUNCATE)
                 .addMigrations(Migrations.MIGRATION_30_31)
                 .addMigrations(Migrations.MIGRATION_31_32)
                 .addMigrations(Migrations.MIGRATION_32_33)
