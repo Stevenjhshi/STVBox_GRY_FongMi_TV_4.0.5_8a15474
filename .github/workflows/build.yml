@@ -6,6 +6,9 @@ on:
     branches: [ main, master ]
   workflow_dispatch:
 
+permissions:
+  contents: write
+
 jobs:
   build:
     name: STVBox_GRY (leanback/armeabi-v7a/release)
@@ -65,3 +68,18 @@ jobs:
           name: STVBox_GRY_${{ env.BUILD_TIME }}
           path: dist/*.apk
           if-no-files-found: error
+
+      - name: Create Release
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: STVBox_GRY_${{ env.BUILD_TIME }}
+          name: STVBox_GRY ${{ env.BUILD_TIME }}
+          body: |
+            Auto build from commit ${{ github.sha }}
+            Version: ${{ env.BUILD_TIME }}
+            Target: leanback / armeabi-v7a (32-bit) / release
+          files: dist/*.apk
+          draft: false
+          prerelease: false
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
